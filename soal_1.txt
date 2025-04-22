@@ -1,0 +1,27 @@
+Aturan (Rules)
+
+IF daun menguning AND tanaman layu THEN hama = kutu daun
+IF terdapat bercak hitam THEN hama = jamur
+IF daun berlubang THEN hama = ulat grayak
+IF daun menguning AND bercak hitam THEN hama = tungau
+
+
+Pseudocode
+
+Input: gejala
+Output: jenis hama
+
+IF gejala == [daun menguning, tanaman layu]:
+    return "Kutu Daun"
+ELIF gejala == [bercak hitam]:
+    return "Jamur"
+ELIF gejala == [daun berlubang]:
+    return "Ulat Grayak"
+ELIF gejala == [daun menguning, bercak hitam]:
+    return "Tungau"
+ELSE:
+    return "Hama tidak teridentifikasi"
+
+
+Penjelasan Alur Inferensi
+Program akan menerima list gejala → mencocokkannya dengan aturan logika → mengeluarkan jenis hama yang sesuai.

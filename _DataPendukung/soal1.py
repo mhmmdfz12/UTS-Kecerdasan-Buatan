@@ -12,7 +12,7 @@ def deteksi_hama(gejala):
         return "Hama tidak teridentifikasi"
 
 # Contoh input gejala
-gejala_input = ["bercak hitam"]  # ← Kamu bisa ganti ini sesuai gejala yang ingin diuji
+gejala_input = ["bercak hitam"]  # ← Bisa ganti ini sesuai gejala yang ingin diuji
 
 # Cetak hasil deteksi hama
 hasil = deteksi_hama(gejala_input)

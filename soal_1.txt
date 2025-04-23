@@ -1,3 +1,22 @@
+Logika Proposional
+1. Jika daun menguning ∧ tanaman layu → hama adalah kutu daun
+   P ∧ Q → H1
+   P: daun menguning
+   Q: tanaman layu
+   H1: kutu daun 
+2. Jika terdapat bercak hitam → hama adalah jamur
+   R → H2
+   R: bercak hitam
+   H2: jamur
+3. Jika daun berlubang → hama adalah ulat grayak
+   S → H3
+   S: daun berlubang
+   H3: ulat grayak
+4. Jika daun menguning ∧ bercak hitam → hama adalah tungau
+   P ∧ R → H4
+
+
+
 Aturan (Rules)
 
 IF daun menguning AND tanaman layu THEN hama = kutu daun
